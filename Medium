@@ -1,0 +1,10 @@
+#include <stdio.h>
+void main()
+{
+into n,sum=0;
+print("Input:");
+scant("%d",&n);
+sum+=i;
+}
+print("%d\n",sum);
+}
