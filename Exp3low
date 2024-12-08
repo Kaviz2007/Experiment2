@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+  int num,fd,ld;
+  printf("Input:");
+  scanf("%d",&num);
+  ld=num%10;
+  fd=num;
+  while(fd>=10){
+    fd/=10;
+    }
+  int product=fd*ld;
+  printf("%d\n",product);
+  }
